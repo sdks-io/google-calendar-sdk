@@ -72,7 +72,7 @@ class CalendarApiClient implements ConfigurationInterface
             ->converter(new CompatibilityConverter())
             ->jsonHelper(ApiHelper::getJsonHelper())
             ->apiCallback($this->config['httpCallback'] ?? null)
-            ->userAgent('PHP-SDK/1.0.2 (OS: {os-info}, Engine: {engine}/{engine-version})')
+            ->userAgent('PHP-SDK/1.0.3 (OS: {os-info}, Engine: {engine}/{engine-version})')
             ->serverUrls(self::ENVIRONMENT_MAP[$this->getEnvironment()], Server::DEFAULT_)
             ->authManagers(['oauth2' => $this->authorizationCodeAuthManager])
             ->loggingConfiguration($loggingConfiguration)
