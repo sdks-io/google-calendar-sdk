@@ -1,5 +1,5 @@
 {
-    "name": "sdks-io/google-calendar-apimatic-sdk",
+    "name": "sdksio/google-calendar-apimatic-sdk",
     "description": "APIMatic SDK for Google Calendar",
     "type": "library",
     "keywords": [
